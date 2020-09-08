@@ -1,6 +1,6 @@
 {
   "name": "sorted-edit-distance",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Sort strings based on spaces in string and then run edit distance to decrease false negatives.",
   "main": "index.js",
   "scripts": {

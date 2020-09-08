@@ -1,4 +1,23 @@
 {
   "name": "sorted-edit-distance",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "description": "Sort strings based on spaces in string and then run edit distance to decrease false negatives.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kartik1998/sorted-edit-distance.git"
+  },
+  "keywords": [
+    "edit-distace",
+    "sorted"
+  ],
+  "author": "Kartik Rawat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kartik1998/sorted-edit-distance/issues"
+  },
+  "homepage": "https://github.com/kartik1998/sorted-edit-distance#readme"
 }

@@ -30,7 +30,8 @@ const sortedEditDistance = (text1, text2) => {
     str2 = '';
   text1.forEach((text) => (str1 += text + ' '));
   text2.forEach((text) => (str2 += text + ' '));
-  return editDistance(str1.trim(), str2.trim());
+
+  return editDistance(str1.toLowerCase().trim(), str2.toLowerCase().trim());
 };
 
 module.exports = { sortedEditDistance, editDistance };
